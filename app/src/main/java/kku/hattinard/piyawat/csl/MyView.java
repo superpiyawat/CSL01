@@ -42,6 +42,8 @@ public class MyView extends View {
             case MotionEvent.ACTION_MOVE:
                 path.lineTo(x,y);
                 break;
+            case MotionEvent.ACTION_UP:
+                break;
             default:
                 return false;
 
